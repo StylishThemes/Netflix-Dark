@@ -1,0 +1,205 @@
+/**
+ * http://github.com/StylishThemes/netflix-dark
+ * 
+ * Netflix Dark Stylish Theme
+ * Author: 
+ *   ddavison
+ * Description:
+ *   Just a dark theme for netflix for stylish!
+**/
+
+html, body {
+  background: #333 !important;
+  color: #EEE !important;
+  padding: 1px !important;
+}
+
+a {
+  color: #CCC !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #DDD !important;
+}
+
+/* === top section === */
+div#fixedHeaderLayer {
+  background: #444 !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+li.nav-item {
+  margin-left: 100px !important;
+}
+
+/* === dark background === */
+div.profiles-menuBody, .dropdown-menu .inner1 .inner2 {
+  background: #444 !important;
+}
+
+/* === darker background === */
+div.subnav-wrap, div.taste-ribbon, div.mrow, div#BobMovie div.bobMovieHeader, div#BobMovie div.bobMovieHeader *, div.account-tools, #profiles-menu .inner2 ul {
+  background: #333 !important;
+}
+
+div.taste-ribbon {
+  border: 0px !important;
+}
+
+/* ===== header ===== */
+div#hd {
+  background: #444 !important;
+  /*padding-right: 0px !important;*/
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  min-width: 0px !important;
+  padding: 0px !important;
+  
+}
+
+#header {
+  min-width: 0px !important;
+}
+
+div.mrow:nth-child(even) {
+  background: #444 !important;
+}
+
+#headerRow {
+  background: #333 !important;
+  
+}
+
+#hd .last {
+  position: absolute !important;
+  top: 0px;
+  height: 50px !important;
+  right: 0px;
+  margin-right: 0px !important;
+}
+
+/* === search area === */
+div#global-search-form {
+  height: 50px !important;
+}
+
+div.account-search {
+  width: auto !important;
+  height: 50px !important;
+}
+
+#hd #global-search-form #global-search {
+  margin-top: 10px !important;
+  background: #666 !important;
+  border: 1px solid #444 !important;
+  border-radius: 2px !important;
+  border-top: none !important;
+  border-left: none !important;
+  padding: 3px !important;
+}
+
+#global-search-form #global-search button {
+  background-color: #666 !important;
+}
+
+#global-search div {
+  border-top: none !important;
+  border-left: none !important; 
+}
+
+/* === profile switch button === */
+div#account-tools {
+  border-left: none !important;
+  height: 50px !important;
+}
+
+div.account-tools {
+  background: #333 !important;
+}
+
+#profiles-menu {
+  top: 56px !important; 
+}
+
+div.logo {
+  padding: 10px !important;
+  position: relative !important;
+  top: 0px;
+  left: 0px;
+}
+
+ul#global-header, div.nav-wrap {
+  height: 100% !important; 
+}
+
+.global-header-wrap ul a {
+  text-shadow: none !important;
+}
+
+span.down-arrow, span.down-arrow-shadow {
+  visibility: hidden !important;
+}
+
+div#dmbr, div#dmbr > div {
+  background-color: #555 !important;
+  border: 0px !important;
+}
+
+/* === movie icons, movie etc === */
+.agMovieSetSlider .agMovie {
+  padding: 1px !important;
+}
+
+div.slider {
+  height: auto !important;
+}
+
+.slider .agMovieSetSlider {
+  width: auto !important;
+  position: relative !important;
+}
+    
+.agMovieSetSlider span.boxShot {
+  margin: 5px !important;
+}
+
+span.boxShot-166, img.boxShotImg, a.bobbable {
+  width: 126px !important;
+  height: 186px !important;
+}
+      
+span.boxShot-166:hover a.playLink, span.boxShot-166:hover a.playLinkNotBobbable, span.boxShot-166.active > a.playLink, span.boxShot-166.active > a.playLinkNotBobbable {
+  background-position: 20px 40px !important;
+}
+
+.mrows .mrow .evidence {
+  background: none !important;
+}
+
+/* === popup === */
+
+div#BobMovie div.agMovie {
+  background: #444 !important
+}
+
+/* === autocomplete popup === */
+.ui-widget-content {
+  background: #555 50% 50% repeat-x !important;
+}
+  
+.ui-autocomplete .ac-item.selected {
+  background: #333 50% 50% repeat-x !important;
+}
+        
+.ui-autocomplete .ac-item.selected a {
+  color: #FFF !important;
+}
