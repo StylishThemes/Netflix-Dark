@@ -1,5 +1,10 @@
 # netflix-dark
 ---
+
+# Notice:  
+## This theme is very outdated, and was designed for circa December 2013. Netflix is now dark by default.  
+## Until something else can be devised from this theme, it will probably be less than useless.
+
 A theme for netflix.
 
 This theme is a slick, compact, dark netflix style alternative.
